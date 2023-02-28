@@ -1,5 +1,10 @@
 # TypeScript for Beginners
 
+This repository contains course materials for the Udemy course [Schnelleinstieg in Typescript](https://www.udemy.com/course/schnelleinstieg-in-typescript/).
+
+The model solution is available for comparison at https://github.com/franneck94/UdemyTS.
+
+
 ## Install Software
 
 - npm
