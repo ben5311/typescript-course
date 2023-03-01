@@ -15,14 +15,15 @@ function check(arg: number): boolean {
 }
 
 const a1 = 2;
-const a2 = 'Jan';
+const a2 = 5;
 
 const r1 = add(a1, a2);
 console.log(r1);
 
-const a3 = ' Schaffranek';
-const r2 = concatenate(a2, a3);
+const a3 = 'Jan';
+const a4 = ' Schaffranek';
+const r2 = concatenate(a3, a4);
 console.log(r2);
 
-const a4 = 3;
-const r3 = check(a4);
+const a5 = 3;
+const r3 = check(a5);
