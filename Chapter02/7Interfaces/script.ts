@@ -1,10 +1,10 @@
-type User = {
+interface User {
     name: string;
     age: number;
     courses: string[];
-};
+}
 
-const userJan = {
+const userJan: User = {
     name: 'Jan',
     age: 27,
     courses: ['C', 'C++', 'Python', 'TypeScript'],
