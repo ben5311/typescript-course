@@ -6,3 +6,4 @@ class Point2D {
 const p1 = new Point2D(1, 1);
 console.log(p1);
 p1.xPos = 3;
+console.log(p1);
