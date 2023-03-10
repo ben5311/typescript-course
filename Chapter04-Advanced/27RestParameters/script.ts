@@ -1,13 +1,18 @@
-class User {
-    constructor(public id: number, public name: string, public age: number) {}
+const a1 = [1, 2, 3];
+
+function arraySum(numbers: number[]) {
+    let result = 0;
+    numbers.forEach((element) => (result += element));
+    return result;
 }
 
-function logUserProperty<T>(obj: T, key: keyof T) {
-    console.log(`${String(key)}: ${obj[key]}`);
+// Rest parameters are like varargs
+function sum(...numbers: number[]) {
+    let result = 0;
+    numbers.forEach((element) => (result += element));
+    return result;
 }
 
-const u1: User = new User(1, 'Max', 22);
-logUserProperty(u1, 'id');
-logUserProperty(u1, 'name');
-logUserProperty(u1, 'age');
-logUserProperty({ id: 2, role: 'Instructor' }, 'role');
+console.log(arraySum([1, 2, 3]));
+console.log(sum(1, 2, 3));
+console.log(sum());
